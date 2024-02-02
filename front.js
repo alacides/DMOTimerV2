@@ -229,3 +229,4 @@ myWorker.postMessage({Run:"Minato",Tempo:timem.value.split("h")});
 myWorker.postMessage({Run:"ChaveiroTopo",Tempo:timet.value.split("m").join("")});
 myWorker.postMessage({Run:"DReaper",Tempo:timed.value.split("m").join("")});
 myWorker.postMessage({Run:"Chaveiro",Tempo:timec.value.split("m").join("")});
+myWorker.postMessage({Run:"ping",Tempo:""});
